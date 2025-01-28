@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0;
+    background: #f5f5f5; 
+}
+
+header{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    position: sticky;
+    top: 0px;
+    z-index: 1000; 
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+    padding: 20px 0px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: tomato; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease; 
+}
+
+header nav ul li a:hover {
+    color: #00bcd4; 
+}
+
+.infopersonalsec{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infopersonalsec .inforpersonal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inforpersonal .contenedor_infopersonal .nombre{
+    margin: 10px 0px 5px 0px;
+}
+
+.inforpersonal .contenedor_infopersonal .cargo_actual{
+    margin: 10px 0px 5px 0px;
+}
+
+.infopersonalsec .inforpersonal .contenedor_foto .profile{
+    width: 150px;
+    height: 100%;
+    border-radius: 40%;
+
+}
+
+.infopersonalsec .inforpersonal .contenedor_infopersonal{
+    margin-left: 10px;
+}
+
+#tecnologias{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_tecnologias h2{
+   text-align: center;
+}
+
+.contenedor_tecnologias ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.contenedor_tecnologias ul li i{
+    font-size: 3rem;
+}
+
+#experienciaproyectos{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia_proyectos__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.experiencia_proyectos__container .columna_experiencia {
+    width: 50%;
+}
+
+.experiencia_proyectos__container .columna_proyectos{
+    width: 50%;
+}
