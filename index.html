@@ -10,11 +10,11 @@
 <body>
     <!-- Encabezado -->
   <header>
-    <nav>
+    <nav aria-label="Menú principal" role="navigation">
       <ul>
         <li><a href="#personal">Sobre Mí</a></li>
         <li><a href="#tecnologias">Tecnologías</a></li>
-        <li><a href="#experienciaproyectos">Mi Experiencia y Proyectos</a></li>
+        <li><a href="#experienciaproyectos">Experiencia y Proyectos</a></li>
       </ul>
     </nav>
   </header>
@@ -22,21 +22,31 @@
   <!-- Foto y Nombre -->
   <section class="infopersonalsec">
     <div class="inforpersonal">
-        <div class="contenedor_foto">
+        <section class="contenedor_foto">
             <img src="./assets/IMG_4532.heic" alt="Foto de Perfil" class="profile">
-        </div>
-        <div class="contenedor_infopersonal">
+        </section>
+        <section class="contenedor_infopersonal">
             <h1 class="nombre">Laura Camila Nuvan Acero</h1>
-            <p class="cargo_actual">FrontEnd Developer Junior 🇨🇴</p>
+            <p class="cargo_actual">FrontEnd Developer  🇨🇴</p>
             <p>Contactame: camilanuvan@gmail.com</p>
-        </div>
+            <div class="social_media_personal">
+              <a class="iconLinkendln" href="https://www.linkedin.com/in/laura-camila-n-7a15ba140/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a class="iconLinkendln" href="https://github.com/camilanuv" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            
+        </section>
     </div>
   </section>
 
   <!-- Sobre Mí -->
   <section id="personal">
     <h2>Sobre Mí</h2>
-    <p>Escribe aquí una breve descripción sobre ti, tus intereses y qué te motiva como desarrollador.</p>
+    <p>Hola! Soy Ingenieria de Sistemas, graduada de la Corporacion Universitaria Minuto de Dios en el 2021, me gusta aprender cosas nuevas, tengo buena adaptabilidad al cambio.</p>
+    <p>Actualmente me encuentro reforzando bases en Js y React.</p>
   </section>
 
   <!-- Tecnologías -->
@@ -49,6 +59,7 @@
             <li><i class="fab fa-css3-alt"></i></li>
             <li><i class="fab fa-js"></i> </li>
             <li><i class="fab fa-react"></i></li>
+            <li><i><img src="./assets/Vtex.png" alt="Logo de Vtex" title="Vtex" height="55px" width="55px"></i></li>
         </ul>
     </div>
   </section>
@@ -58,20 +69,29 @@
     <div class="experiencia_proyectos__container">
       <div class="columna_experiencia">
         <h3>Experiencia</h3>
+        <ul>
+          <li>
+            <p>Tita Media</p>
+            <p>Desde 2022 desempeño el cargo de FrontEnd Developer Junior, implementando nuevas secciones y/o landings en los ecommerce implementados en Vtex IO, utilizando tecnologias como React.</p>
+            
+          </li>
+        </ul>
     </div>
 
       <div class="columna_proyectos">
         <h3>Mis Proyectos</h3>
-        <ul>
+        
           <p>En construccion... ✨👩🏻‍💻 </p>
-        </ul>
+        
       </div>
     </div>
   </section>
   <script src="funciones.js"></script>  
   <!-- Copy -->
   <footer>
-    <p>© 2025 Laura Camila Nuvan Acero. Todos los derechos reservados.</p>
+    <div class="footer_page">
+      <p>© 2025 Laura Camila Nuvan Acero. Todos los derechos reservados.</p>
+    </div>
   </footer>
 
 </body>

@@ -19,7 +19,7 @@ header{
     width: 100%;
     height: 30px;
     margin-bottom: 30px;
-    background-color: antiquewhite;
+    background-color: lavenderblush;
     padding: 20px 0px;
 }
 
@@ -35,7 +35,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: tomato; 
+    color: #000000;
     text-decoration: none; 
     font-weight: bold;
     font-size: 1rem;
@@ -43,7 +43,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #00bcd4; 
+    color: gray;
+    border-bottom: 1px solid gray;
 }
 
 .infopersonalsec{
@@ -51,6 +52,8 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+    flex-direction: column;
 }
 
 .infopersonalsec .inforpersonal {
@@ -78,11 +81,31 @@ header nav ul li a:hover {
     margin-left: 10px;
 }
 
+.social_media_personal{
+    display: flex;
+    gap: 15px;
+}
+
+.iconLinkendln{
+    font-size: 2rem;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.iconLinkendln:hover{
+    color: #c9c9c9; 
+}
+
+#personal{
+    max-width: 1000px;
+}
+
 #tecnologias{
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
 }
 
 .contenedor_tecnologias h2{
@@ -103,11 +126,14 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
+    margin: 40px 0px;
 }
 
 .experiencia_proyectos__container{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .experiencia_proyectos__container .columna_experiencia {
@@ -116,4 +142,11 @@ header nav ul li a:hover {
 
 .experiencia_proyectos__container .columna_proyectos{
     width: 50%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
